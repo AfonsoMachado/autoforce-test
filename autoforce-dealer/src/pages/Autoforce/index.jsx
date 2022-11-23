@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Cabrio from "../../components/Cabrio";
 import CabrioDescription from "../../components/CabrioDescription";
 import CabrioVideo from "../../components/CabrioVideo";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import LegalTerms from "../../components/LegalTerms";
 import NavMenu from "../../components/NavMenu";
@@ -17,6 +18,7 @@ export default class Autoforce extends Component {
         <CabrioDescription />
         <CabrioVideo />
         <LegalTerms />
+        <Footer />
       </div>
     );
   }
