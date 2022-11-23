@@ -1,0 +1,18 @@
+@import "../../assets/scss/colors";
+
+.wrapper {
+  .end {
+    border-bottom: 1px solid $gray-tertiary;
+    margin-top: 34px;
+  }
+}
+
+.cabrio-text-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 40px;
+  p {
+    width: 545px;
+  }
+}
