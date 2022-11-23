@@ -1,4 +1,5 @@
 /**
+ * 1. Modifique os itens de menu "Novos" e "Seminovos" e reordene os itens do menu
  * Site: https://testes.autoforce.com.br/autoforce-ford
  *
  * Crie um novo item dropdown para o menu e o intitule "Veículos".
