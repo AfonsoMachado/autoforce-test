@@ -1,0 +1,45 @@
+@import './colors';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+p, span {
+  font-size: 16px;
+  color: $black-primary;
+}
+
