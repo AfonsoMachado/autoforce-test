@@ -8,7 +8,7 @@ export default class NavMenu extends Component {
       <div className='nav-menu-wrapper wrapper'>
         <div className="menu">
           <div className="left-menu">
-            Ofertas → <t>Novo Série 1</t>
+            Ofertas → <label>Novo Série 1</label>
           </div>
           <div className="right-menu">
             Voltar para página anterior
