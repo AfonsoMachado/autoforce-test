@@ -5,8 +5,8 @@ Desafio Suporte Front-end - Autoforce
 </h2>
 
 <p align="center">
-  <a href="#parte-1-manipulando-o-dom">Parte 1 - Manipulando o DOM</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#parte-2-codificação-de-interface">Parte 2 - Codificação de Interface</a>&nbsp;&nbsp;&nbsp;
+  <a href="#parte-1---manipulando-o-dom">Parte 1 - Manipulando o DOM</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#parte-2---codificação-de-interface">Parte 2 - Codificação de Interface</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 </td></tr>
@@ -50,7 +50,7 @@ Remova a aparição deste formulário de forma que o usuário seja direcionado p
 Crie um popup de WhatsApp fixado no canto inferior esquerdo da tela, ao clicar nesse botão três números devem aparecer:
 (Seminovos: +55 (11) 99999-9999, Serviços +55 (11) 11111-11111 e Central de Vendas: +55 (11) 88888-8888), um novo clique em qualquer um desses números deve encaminhar o usuário diretamente para o WhatsApp.
 
-**Resoluçao: [Desafio 1.3](https://github.com/AfonsoMachado/autoforce-test/blob/master/Parte%201/autoforce1.4.js)**
+**Resoluçao: [Desafio 1.4](https://github.com/AfonsoMachado/autoforce-test/blob/master/Parte%201/autoforce1.4.js)**
 
 # Parte 2 - Codificação de Interface
 
@@ -62,32 +62,35 @@ Condificação da interface contida no [Figma](https://www.figma.com/file/mEuuuj
 
 Tecnologias utilizadas para o desenvolvimento:
 
-- [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- [BootstrapVue](https://bootstrap-vue.org/)
+- [React](https://pt-br.reactjs.org/)
+- [SASS](https://sass-lang.com/)
 
 
 ## :fire: Executando o projeto
 
 ### Requisitos Necessários
 
-- [Node.js v16.17.0](https://nodejs.org/download/release/v16.17.0/)
-- [npm v8.15.0](https://www.npmjs.com/) (Instalado juntamente com o Node.js v16.17.0)
+- [Node.js](https://nodejs.org/pt-br/) (Foi usada a versão 18.12.1 durante o desenvolvimento)
+- [npm](https://www.npmjs.com/) (Instalado juntamente com o Node.js)
 
 **Instalação e execução**
 
 ```bash
+# Entre na pasta do projeto
+$ cd autoforce-dealer/
+
 # Instale todas as dependências necessárias:
 $ npm install
 
-# Para iniciar o servidor de desenvolvimento do Nuxt:
-$ npm run dev
+# Inicie o servidor de desenvolvimento do Nuxt:
+$ npm start
 ```
 
 - Após isso, o projeto pode ser acessado a partir da URL http://localhost:3000.
 
 ## :up: Deploy
 
-Com a finalidade de realizar testes, foi realizado o deploy deste projeto usando o <a target="_blank" href="https://vercel.com/">Vercel</a>. O mesmo pode ser acessado através da URL: https://compayz-vuejs-test.vercel.app/.
+Com a finalidade de realizar testes, foi realizado o deploy deste projeto usando o <a target="_blank" href="https://vercel.com/">Vercel</a>. O mesmo pode ser acessado através da URL: https://autoforce-front-test.vercel.app/.
 
 ---
 
