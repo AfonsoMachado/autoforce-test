@@ -1,3 +1,15 @@
+/**
+ * Site: https://testes.autoforce.com.br/autoforce-ford
+ *
+ * Crie um novo item dropdown para o menu e o intitule "Veículos".
+ * Os itens "Novos" e "Seminovos" devem ser realocados para esse novo dropdown.
+ * O item "Veículos" deve ser o primeiro do menu.
+ * Após este primeiro passo, reordene a disposição do menu para a seguinte ordem:
+ * Veículos | Consórcio | Pós-Venda | Ofertas Únicas | Vendas Diretas | Contato
+ */
+
+// -------------------------- CRIANDO MENU DROPDOWN VEÍCULOS ----------------------------------
+
 // Seleciona toda a barra de navegação
 const nav = document.querySelector(".nav");
 // Selecione última opção da barra de navegação
