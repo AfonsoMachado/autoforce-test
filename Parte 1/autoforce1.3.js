@@ -1,5 +1,5 @@
 const whatsButtons = document.querySelectorAll(".button--whatsapp");
-const whatsUrl = "https://api.whatsapp.com/send?phone=5583988971010";
+const whatsUrl = "https://wa.me/send?phone=5583988971010";
 
 for (const whatsButton of whatsButtons) {
   recreateNode(whatsButton);
