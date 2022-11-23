@@ -1,0 +1,18 @@
+@import '../../assets/scss/colors';
+
+.highlight {
+  display: flex;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  & :first-child {
+    color: $black-primary;
+  }
+
+  & :last-child {
+    color: $blue-primary;
+  }
+}

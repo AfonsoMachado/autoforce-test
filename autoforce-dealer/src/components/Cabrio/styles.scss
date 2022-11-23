@@ -1,6 +1,51 @@
 @import '../../assets/scss/_colors.scss';
 
+.cabrio-end {
+  width: 100%;
+  border-bottom: 4px solid $black-primary;
+  margin-top: 32px;
+}
+
+.cabrio-content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-weight: 400;
+    border-left: 3px solid $white-tertiaty;
+    padding-left: 10px;
+  }
+}
+
+.right {
+  width: 350px;
+  margin-right: 100px;
+  margin-top: 50px;
+  .highlights {
+    display: flex;
+    justify-content: space-between;
+  }
+  .highlight-wrapper > :first-child {
+    margin-bottom: 32px;
+  }
+  h2 {
+    margin-bottom: 24px;
+  }
+  .cabrio-button {
+    height: 40px;
+    width: 206px;
+    border-radius: 50px;
+    background-color: $blue-primary;
+    color: $white-primary;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 27px;
+  }
+}
+
+
 .cabrio-header {
+  margin-top: 16px;
   h2 {
     color: $gray-secondary;
     font-weight: 400;
