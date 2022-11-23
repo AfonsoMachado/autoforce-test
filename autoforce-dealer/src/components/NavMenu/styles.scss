@@ -1,0 +1,29 @@
+@import '../../assets/scss/colors';
+
+.nav-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $white-secondary;
+  .menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: $gray-secondary;
+    font-size: 12px;
+
+    & :first-child > .span {
+    font-size: 12px;
+
+    }
+
+    & :last-child {
+      text-decoration: underline;
+    }
+  }
+
+  .site-title {
+    margin-bottom: 16px;
+  }
+}

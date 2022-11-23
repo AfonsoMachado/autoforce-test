@@ -10,7 +10,7 @@ export default class Header extends Component {
   render() {
     return (
 
-      <header className="header-wrapper">
+      <header className="header-wrapper wrapper">
         <div className="header-logo">
           <div className="first-logo">
             <img src={dealerLogo} alt="dealer-logo"/>
