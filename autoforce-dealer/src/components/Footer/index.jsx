@@ -7,11 +7,15 @@ import linkedinLogo from "../../assets/svgs/linkedin-icon.svg";
 import instagramLogo from "../../assets/svgs/instagram-icon.svg";
 import afLogo from "../../assets/svgs/af-logo.svg";
 import mapIcon from "../../assets/svgs/map-icon.svg";
+import upIcon from "../../assets/svgs/up-icon.svg";
 
 export default class Footer extends Component {
   render() {
     return (
       <footer className="footer-wrapper wrapper">
+        <button className="top-button">
+          <img src={upIcon} alt="" />
+        </button>
         <div className="footer-header">
           <img src={logoWhite} alt="" />
           <div className="social">

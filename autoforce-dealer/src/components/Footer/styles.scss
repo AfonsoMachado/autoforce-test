@@ -2,6 +2,19 @@
 
 .footer-wrapper {
   background-color: $black-primary;
+  position: relative;
+  .top-button {
+    width: 30px;
+    height: 30px;
+    background-color: $blue-secondary;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 166px;
+    top: -15px;
+  }
 }
 
 .footer-header {

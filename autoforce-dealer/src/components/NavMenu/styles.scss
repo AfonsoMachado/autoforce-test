@@ -1,4 +1,4 @@
-@import '../../assets/scss/colors';
+@import "../../assets/scss/colors";
 
 .nav-menu-wrapper {
   display: flex;
@@ -14,12 +14,12 @@
     font-size: 12px;
 
     & :first-child > .span {
-    font-size: 12px;
-
+      font-size: 12px;
     }
 
     & :last-child {
       text-decoration: underline;
+      cursor: pointer;
     }
   }
 
